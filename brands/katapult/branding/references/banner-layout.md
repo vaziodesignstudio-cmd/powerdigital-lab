@@ -2,7 +2,17 @@
 
 Authoritative spec for Katapult ad banners. The **Figma file is the primary source of truth**, above the PDF guidelines. Source: Figma `HgYaoi2oKw63WR0eeGwYhT`, `design-components` (the V1 1:1 and 9:16 templates) and the KAT26014 briefing.
 
-Reference images in this folder: `banner-template-1x1.png`, `banner-template-9x16.png`, `figma-styleguide-overview.png`.
+Reference images in this folder: `template-meta1-1x1.png`, `template-meta1-9x16.png`, `template-meta2-1x1.png`, `template-meta2-9x16.png`, `test-imagery.png`, `figma-styleguide-overview.png`.
+
+## Templates (two in the design system)
+
+The `design-components` in Figma now hold two templates, each as a 1x1 and a 9x16 variant.
+
+**meta 1 — phone mockup.** Headline (Aktiv Grotesk SemiBold, black) plus the hand-holding-phone mockup that bleeds off an edge. This is the template the KAT26014 banner set was built from. See the composition rules below.
+
+**meta 2 — photo + benefits.** Photo-led, no phone mockup. Structure: a real product or lifestyle **photo filling one edge** (top on 1x1, bottom on 9x16, bleeding off that edge), a centered headline (Aktiv Grotesk **Regular**, black, about 55px on 1080), **three pink benefit pills** (rounded outline in `#ec5370`, each with a pink check icon and short copy), the Katapult logo, and a **Bounce arc** graphic in the corner. Background `#eaeae8`. Disclaimer sits above the photo (white text with thin black outline, as in meta 1).
+
+**Test imagery** (`test-imagery.png`): the phone mockup plus four lifestyle photos added for testing meta 2, spanning the categories Katapult finances (furniture/sofa, laptop/workspace, auto/tires, outdoor patio). Drop these into the meta 2 photo slot.
 
 ## Source-of-truth values (from Figma, override the PDF)
 

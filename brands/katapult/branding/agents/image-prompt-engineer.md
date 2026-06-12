@@ -41,4 +41,5 @@ Banner visuals that feel kinetic, bold, and approachable, and that leave people 
 - Headlines run **large and wide**, especially on wide formats (970x250 about 58px across most of the width). Do not be conservative.
 - The logo is placed artwork (the pink wordmark), never AI-rendered and never on top of the photo.
 - Disclaimer is white text with a thin black outline at a small size, fit within the bottom margin so it never clips; present on medium and large formats, removed on 320x50 and 728x90 (legal lives on the landing page there).
+- Two templates exist: **meta 1** (phone mockup) and **meta 2** (a product or lifestyle photo filling one edge, a Regular-weight headline, three pink benefit pills with check icons, the logo, and a Bounce arc). For meta 2, source or prompt photos in the categories Katapult finances (furniture, electronics, auto, outdoor); the photo bleeds off the top (1x1) or bottom (9x16).
 - Full spec and per-size guidance: `../references/banner-layout.md`.
