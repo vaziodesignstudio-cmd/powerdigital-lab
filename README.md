@@ -1,67 +1,67 @@
 # PowerDigital Lab
 
-Operação enxuta de agents para executar conteúdo de redes sociais e banners de ad programmatic, marca a marca.
+A lean agent operation for producing Meta creatives and programmatic ad banners, one brand at a time.
 
-A primeira marca é a **Katapult**, usada como piloto para validar a operação com os líderes. Se funcionar, a mesma estrutura é replicada para outras marcas, cada uma na sua pasta dentro de `brands/`.
+The first brand is **Katapult**, used as the pilot for the operation. Once the model is proven, the same structure is replicated for other brands, each in its own folder under `brands/`.
 
-## Escopo do piloto
+## Pilot scope
 
-- Posts orgânicos de **Instagram**
-- Banners de **Google Ads programmatic** (Display / DV360)
+- **Meta creatives** (Instagram / Facebook)
+- **Google Ads programmatic** banners (Display / DV360)
 
-## Como a operação funciona
+## How the operation works
 
-O fluxo entra por um front que recebe a demanda e a marca, e distribui briefs para os agents de execução.
+Work enters through a front that receives the demand and the brand, then distributes briefs to the execution agents.
 
 ```
-Demanda + Branding
+Demand + Branding
         │
         ▼
-  Brand Guardian  ──guarda a marca, impõe consistência──┐
-        │                                                │
-        ▼                                                │
-  Studio Producer ──traduz a demanda em briefs──────────┤
-        │                                                │
-        ├──► Content Creator ───────► posts (copy)       │
-        ├──► Instagram Curator ─────► posts (estética)   │
-        ├──► Ad Creative Strategist ► banners (copy)     │ consistência
-        ├──► Image Prompt Engineer ─► banners (visual)   │ de marca
-        ├──► Programmatic Buyer ────► veiculação GDN     │
-        └──► Tracking Specialist ───► medição            │
-                                                         │
-        todos consomem a marca definida pelo ◄───────────┘
+  Brand Guardian  ──holds the brand, enforces consistency──┐
+        │                                                   │
+        ▼                                                   │
+  Studio Producer ──translates the demand into briefs───────┤
+        │                                                   │
+        ├──► Content Creator ───────► Meta creatives (copy)  │
+        ├──► Instagram Curator ─────► Meta creatives (visual)│
+        ├──► Ad Creative Strategist ► banners (copy)         │ brand
+        ├──► Image Prompt Engineer ─► banners (visual)       │ consistency
+        ├──► Programmatic Buyer ────► GDN delivery           │
+        └──► Tracking Specialist ───► measurement            │
+                                                             │
+        all consume the brand defined by ◄───────────────────┘
 ```
 
-## Agents da operação
+## Operation agents
 
-Em [.claude/agents/](.claude/agents/). Seleção feita a partir de [agency-agents](https://github.com/msitarzewski/agency-agents).
+In [.claude/agents/](.claude/agents/).
 
 ### Front
-- **Brand Guardian** (`design-brand-guardian.md`): custódia da marca. Recebe os branding elements e garante consistência em tudo que é produzido.
-- **Studio Producer** (`project-management-studio-producer.md`): recebe a demanda e distribui briefs para os agents de execução.
+- **Brand Guardian** (`design-brand-guardian.md`): brand custody. Receives the branding elements and enforces consistency across everything produced.
+- **Studio Producer** (`project-management-studio-producer.md`): receives the demand and distributes briefs to the execution agents.
 
-### Posts (Instagram)
-- **Content Creator** (`marketing-content-creator.md`): copy e calendário editorial.
-- **Instagram Curator** (`marketing-instagram-curator.md`): estética, grid e formatos.
+### Meta creatives
+- **Content Creator** (`marketing-content-creator.md`): copy and editorial calendar.
+- **Instagram Curator** (`marketing-instagram-curator.md`): aesthetic, grid, and formats.
 
 ### Banners (Google Ads programmatic)
-- **Ad Creative Strategist** (`paid-media-creative-strategist.md`): copy e variações de criativo, testes.
-- **Image Prompt Engineer** (`design-image-prompt-engineer.md`): visuais dos banners via IA.
-- **Programmatic & Display Buyer** (`paid-media-programmatic-buyer.md`): veiculação no Google Display Network / DV360.
-- **Tracking & Measurement Specialist** (`paid-media-tracking-specialist.md`): rastreamento de conversão.
+- **Ad Creative Strategist** (`paid-media-creative-strategist.md`): creative copy and variations, testing.
+- **Image Prompt Engineer** (`design-image-prompt-engineer.md`): banner visuals via AI.
+- **Programmatic & Display Buyer** (`paid-media-programmatic-buyer.md`): delivery on Google Display Network / DV360.
+- **Tracking & Measurement Specialist** (`paid-media-tracking-specialist.md`): conversion tracking.
 
-## Estrutura por marca
+## Per-brand structure
 
 ```
 brands/
   katapult/
-    branding/    elementos de marca (identidade, voz, paleta, guidelines)
-    briefings/   demandas traduzidas pelo Studio Producer
+    branding/    brand elements (identity, voice, palette, guidelines)
+    briefings/   demands translated by the Studio Producer
     outputs/
-      social/    posts produzidos
-      banners/   criativos de banner produzidos
+      social/    Meta creatives produced
+      banners/   banner creatives produced
 ```
 
-## Próximo passo
+## Next step
 
-Alimentar `brands/katapult/branding/` com os elementos de marca da Katapult. A partir daí o Brand Guardian passa a ser a fonte de consistência e o Studio Producer começa a abrir briefs.
+Populate `brands/katapult/branding/` with Katapult's brand elements. From there the Brand Guardian becomes the source of consistency and the Studio Producer starts opening briefs.
