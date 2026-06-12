@@ -6,6 +6,7 @@ Brand source of truth and per-agent briefs, fed from the Katapult Brand Guidelin
 
 - `brand-guidelines.md` — master digest of the full guidelines. The Brand Guardian owns it.
 - `agents/` — one focused brief per operation agent, containing only the slice that agent needs.
+- `references/` — layout references. Holds the ad banner templates (1:1 and 9:16) and `banner-layout.md`, the spec for the upcoming banner sequence.
 
 ## How the briefs map to the agents
 
