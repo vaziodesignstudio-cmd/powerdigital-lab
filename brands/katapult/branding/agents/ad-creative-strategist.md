@@ -34,3 +34,10 @@ You write ad copy and creative variations for Google Ads programmatic banners (D
 ## Do not
 
 - No predatory or hidden-fee framing, even as contrast. No shaming of credit history. No promises of guaranteed approval. Regulated-finance claims must stay supportable.
+
+## Programmatic banner notes (KAT26014 pattern)
+
+- When a brief tests messaging, the headline carries the tested message (one message per iteration, e.g. V1 vs V2); the pink tagline line from the template is dropped.
+- Keep headlines short and confident; they scale large in the layout. Tiny formats (320x50) need very short copy.
+- Standard IAB set: 300x250, 300x600, 160x600, 320x480, 480x320, 320x50, 728x90, 970x250.
+- The legal disclaimer (lease-purchase) must accompany every unit EXCEPT the smallest leaderboards (320x50, 728x90), where it is illegible and lives on the landing page instead. Disclaimer copy is in `../references/banner-layout.md`.

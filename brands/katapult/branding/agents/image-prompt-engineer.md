@@ -32,3 +32,12 @@ Headlines in a grotesque sans in the spirit of Oakes Grotesk Medium; large quote
 ## Output goal
 
 Banner visuals that feel kinetic, bold, and approachable, and that leave people feeling elevated, respected, empowered, or included.
+
+## Banner production rules (Figma is the source of truth)
+
+- Use the Figma values, not the PDF: background `#eaeae8`, headline black `#000000` in Aktiv Grotesk SemiBold, pink `#ec5370`. Aktiv Grotesk is licensed and may not load in tooling; use Inter as a stand-in and flag that it must be swapped to Aktiv Grotesk in Figma desktop.
+- The hand-holding-phone mockup is a transparent PNG. It must **bleed off a frame edge**, never float with margin all around. Verticals and squares bleed off the bottom; landscape and short formats bleed off the right.
+- Position the hero **high and large**, right under the headline, filling the whitespace; let the phone dominate the lower two-thirds. Anchor left in verticals.
+- The logo is placed artwork (the pink wordmark), never AI-rendered and never on top of the photo.
+- Disclaimer present on medium and large formats; removed on 320x50 and 728x90 (legal lives on the landing page there).
+- Full spec and per-size guidance: `../references/banner-layout.md`.

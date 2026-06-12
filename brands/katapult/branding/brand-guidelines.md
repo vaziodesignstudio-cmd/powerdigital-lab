@@ -5,6 +5,8 @@ Brand owner contact: Misti Achilles, VP Head of Marketing, misti@katapult.com.
 
 This is the master brand reference for the operation. The Brand Guardian owns it and enforces it. Each execution agent gets a focused brief in `agents/` containing only its relevant slice.
 
+> **The Figma file is the primary source of truth, above this PDF digest.** Where they disagree, follow Figma. Known corrections from the Figma `design-components`: banner background is `#eaeae8` (not `#f4f4f4`); the headline is black `#000000` in **Aktiv Grotesk** SemiBold (not Dark Blue, not Oakes Grotesk); Katapult Pink is `#ec5370` (not `#ed5370`). Aktiv Grotesk is the brand font now in use; Oakes Grotesk in the sections below is superseded. See `references/banner-layout.md` for the production spec.
+
 ---
 
 ## What Katapult is
