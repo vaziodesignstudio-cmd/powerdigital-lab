@@ -37,7 +37,8 @@ Banner visuals that feel kinetic, bold, and approachable, and that leave people 
 
 - Use the Figma values, not the PDF: background `#eaeae8`, headline black `#000000` in Aktiv Grotesk SemiBold, pink `#ec5370`. Aktiv Grotesk is licensed and may not load in tooling; use Inter as a stand-in and flag that it must be swapped to Aktiv Grotesk in Figma desktop.
 - The hand-holding-phone mockup is a transparent PNG. It must **bleed off a frame edge**, never float with margin all around. Verticals and squares bleed off the bottom; landscape and short formats bleed off the right.
-- Position the hero **high and large**, right under the headline, filling the whitespace; let the phone dominate the lower two-thirds. Anchor left in verticals.
+- Position the hero **aggressively high, left, and large**: in verticals it rises almost to the headline and anchors left (x near 0 or negative); on wide formats it grows and bleeds off the top and right. Fill the space, never timid.
+- Headlines run **large and wide**, especially on wide formats (970x250 about 58px across most of the width). Do not be conservative.
 - The logo is placed artwork (the pink wordmark), never AI-rendered and never on top of the photo.
-- Disclaimer present on medium and large formats; removed on 320x50 and 728x90 (legal lives on the landing page there).
+- Disclaimer is white text with a thin black outline at a small size, fit within the bottom margin so it never clips; present on medium and large formats, removed on 320x50 and 728x90 (legal lives on the landing page there).
 - Full spec and per-size guidance: `../references/banner-layout.md`.

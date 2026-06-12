@@ -23,8 +23,9 @@ Logo, headline (the message), hero mockup, optional disclaimer. The pink upperca
 
 1. The hero is a transparent PNG, so it must **bleed off a frame edge**, never float with margin all around. Vertical and square formats bleed off the bottom; landscape and short formats bleed off the right (and bottom).
 2. Position the hero **high**, right under the headline, so it fills the whitespace. Bigger is better: let the phone dominate the lower two-thirds. In verticals, anchor it to the left (x near 0 or slightly negative).
-3. Headline is **confident and large**, scaled to the format. Do not shrink it to tiny sizes on narrow or short pieces. Reference: a 160x600 skyscraper headline reads at about 26px, not 19px.
-4. Disclaimer appears on medium and large formats; it is **removed on the smallest leaderboards (320x50 and 728x90)** where it cannot be legible. For those, the legal terms live on the landing page.
+3. Headline is **confident, large, and wide**, scaled to the format and never timid. On wide formats it runs very large across most of the width (970x250 about 58px; 728x90 about 35px; 320x50 about 17px; 160x600 about 26px). Do not shrink it.
+4. Hero is pushed **aggressively up and left and made large**. In verticals it rises almost to the headline and anchors left (x near 0 or negative); on wide formats it grows and bleeds off the top and right (970x250 hero about 247x545). Fill the space.
+5. Disclaimer is **white text with a thin black outline** (white fill, ~0.5px black stroke, OUTSIDE), at a **small size (5 to 7px)**, and must **fit within the bottom margin** (compute its height and anchor it above the bottom edge: y = frameHeight - margin - textHeight) so it never overflows or clips. Black-only text loses legibility over the hand. It appears on medium and large formats and is **removed on the smallest leaderboards (320x50 and 728x90)**, where the legal terms live on the landing page.
 
 ## Disclaimer copy (verbatim where used)
 
